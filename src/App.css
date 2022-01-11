@@ -1,0 +1,70 @@
+.App-header {
+  background-color: #812b80;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.App-title {
+  margin: 1rem 0;
+}
+.rowContent {
+  height: 90vh;
+  align-items: center;
+}
+.ticketColumn {
+  background-color: #ffffff;
+  transition: transform 100ms linear;
+}
+.highlightTicket {
+  z-index: 9;
+  box-shadow: 0px 0px 10px 0px #dddddd;
+}
+.divHeight{
+  min-height: 235px; 
+  max-height: 235px
+}
+.ticketDescription {
+  font-size: 0.8rem;
+  min-height: 130px;
+  max-height: 130px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 8;
+  -webkit-box-orient: vertical;
+}
+.perkList {
+  border: none !important;
+  font-size: 13px;
+}
+.perkList:nth-child(odd) {
+  background: #f4f8f9;
+}
+.registerBtn {
+  color: #ffffff;
+  font-size: 14px;
+  padding: 10px 15px;
+  background-color: #f54e85;
+}
+.registerBtn:hover{
+  color: #ffffff;
+}
+.vatText {
+  font-size: 12px;
+}
+.ticketLabel {
+  height: 25px;
+}
+.popularChoiceText {
+  color: #ffffff;
+  font-size: 12px;
+  background-image: linear-gradient(
+    to right,
+    rgb(83, 1, 83),
+    rgb(114, 6, 114),
+    rgb(202, 67, 112)
+  );
+}
